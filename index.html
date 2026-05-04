@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Bookie</title>
+    <link rel="stylesheet" href="./static/css/site.css" />
+    <script defer src="./static/js/main.js"></script>
+</head>
+<body>
+    <div class="App">
+      <div class="SearchBox">
+        <input
+          id="search_input"
+          placeholder="Type a book title..."
+          value="the lord of the rings"
+        />
+        <button onclick="onSearch()">Search</button>
+      </div>
+      <div class="Paginator">
+        <button onclick="decrementPage()">&larr;</button>
+        <span id="pages_span">&nbsp; / &nbsp;</span>
+        <button onclick="incrementPage()">&rarr;</button>
+      </div>
+      <div class="Books" id="books_div">
+      
+      
+
+
+      </div>
+    </div>
+</body>
+</html>
